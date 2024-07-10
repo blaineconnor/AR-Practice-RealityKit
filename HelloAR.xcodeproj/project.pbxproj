@@ -7,18 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F30FCC912C3EC8C000FE0FDC /* LunarRover.reality in Resources */ = {isa = PBXBuildFile; fileRef = F30FCC902C3EC8C000FE0FDC /* LunarRover.reality */; };
 		F3486FC62C3E6EDE00114059 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3486FC52C3E6EDE00114059 /* AppDelegate.swift */; };
 		F3486FC82C3E6EDE00114059 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3486FC72C3E6EDE00114059 /* ContentView.swift */; };
 		F3486FCA2C3E6EE000114059 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3486FC92C3E6EE000114059 /* Assets.xcassets */; };
 		F3486FCD2C3E6EE000114059 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3486FCC2C3E6EE000114059 /* Preview Assets.xcassets */; };
+		F3486FD42C3E90FF00114059 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3486FD32C3E90FF00114059 /* Coordinator.swift */; };
+		F3486FD62C3E936800114059 /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3486FD52C3E936800114059 /* UIColor+Extensions.swift */; };
+		F3486FD82C3E97F000114059 /* Cosmonaut.reality in Resources */ = {isa = PBXBuildFile; fileRef = F3486FD72C3E97F000114059 /* Cosmonaut.reality */; };
+		F35E30A82C3EC700005C26C4 /* shoe.usdz in Resources */ = {isa = PBXBuildFile; fileRef = F35E30A62C3EC700005C26C4 /* shoe.usdz */; };
+		F35E30A92C3EC700005C26C4 /* teapot.usdz in Resources */ = {isa = PBXBuildFile; fileRef = F35E30A72C3EC700005C26C4 /* teapot.usdz */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F30FCC902C3EC8C000FE0FDC /* LunarRover.reality */ = {isa = PBXFileReference; lastKnownFileType = file; path = LunarRover.reality; sourceTree = "<group>"; };
 		F3486FC22C3E6EDE00114059 /* HelloAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloAR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3486FC52C3E6EDE00114059 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F3486FC72C3E6EDE00114059 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F3486FC92C3E6EE000114059 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F3486FCC2C3E6EE000114059 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F3486FD32C3E90FF00114059 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		F3486FD52C3E936800114059 /* UIColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
+		F3486FD72C3E97F000114059 /* Cosmonaut.reality */ = {isa = PBXFileReference; lastKnownFileType = file; path = Cosmonaut.reality; sourceTree = "<group>"; };
+		F35E30A62C3EC700005C26C4 /* shoe.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = shoe.usdz; sourceTree = "<group>"; };
+		F35E30A72C3EC700005C26C4 /* teapot.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = teapot.usdz; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +67,12 @@
 				F3486FC72C3E6EDE00114059 /* ContentView.swift */,
 				F3486FC92C3E6EE000114059 /* Assets.xcassets */,
 				F3486FCB2C3E6EE000114059 /* Preview Content */,
+				F3486FD32C3E90FF00114059 /* Coordinator.swift */,
+				F3486FD52C3E936800114059 /* UIColor+Extensions.swift */,
+				F3486FD72C3E97F000114059 /* Cosmonaut.reality */,
+				F35E30A62C3EC700005C26C4 /* shoe.usdz */,
+				F35E30A72C3EC700005C26C4 /* teapot.usdz */,
+				F30FCC902C3EC8C000FE0FDC /* LunarRover.reality */,
 			);
 			path = HelloAR;
 			sourceTree = "<group>";
@@ -125,8 +143,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F35E30A82C3EC700005C26C4 /* shoe.usdz in Resources */,
 				F3486FCD2C3E6EE000114059 /* Preview Assets.xcassets in Resources */,
+				F30FCC912C3EC8C000FE0FDC /* LunarRover.reality in Resources */,
+				F3486FD82C3E97F000114059 /* Cosmonaut.reality in Resources */,
 				F3486FCA2C3E6EE000114059 /* Assets.xcassets in Resources */,
+				F35E30A92C3EC700005C26C4 /* teapot.usdz in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +161,8 @@
 			files = (
 				F3486FC82C3E6EDE00114059 /* ContentView.swift in Sources */,
 				F3486FC62C3E6EDE00114059 /* AppDelegate.swift in Sources */,
+				F3486FD42C3E90FF00114059 /* Coordinator.swift in Sources */,
+				F3486FD62C3E936800114059 /* UIColor+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
